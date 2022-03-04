@@ -1,0 +1,628 @@
+.container{
+    padding: 0px 151.5px;
+}
+
+body{
+    margin: 0%;
+    font-family: Circular, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    box-sizing: border-box;
+}
+
+.welcome_section{
+    height: 1072px;
+    background-color : black;
+    padding : 0% 151.5px 96px 151.5px;
+    box-sizing : border-box;
+}
+
+
+#navbar{
+    height: 80px;
+    padding: auto 0%;
+    display: grid;
+    grid-template-columns: 626px auto 626px;
+    /* position: fixed; */
+}
+
+
+#search_button{
+    padding:19px 0px;
+}
+
+.navigation_options{
+    padding: 10px 16px;
+    margin-right: 0%;
+    display: inline-block;
+    margin: 15px;
+}
+
+#navigation_shortcuts{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    
+}
+
+#navigation_button{
+    height: 42px;
+    width: 77px;
+    float: right;
+    padding: 5px 6px 5px 13px;
+    border-radius: 21px;
+    border: none;
+    background-color: white;
+}
+
+
+.become_a_host{
+    margin: 0px 8px 0px 0px;
+    float: right;
+    padding-top: 29px;
+    font-size: 15px;
+    padding-right: 6px;
+}
+
+
+#search_bar{
+    width: 850px;
+    height: 96px;
+    margin: 0% auto;
+}
+
+
+#search_bar_flex{
+    height: 66px;
+    display: flex;
+}
+
+
+#search_bar_flex1{
+    width: 269.98px;
+    background-color: white;
+    border-radius: 35px 0px 0px 35px;
+    padding: 14px 33px;
+    box-sizing: border-box;
+    border-right: 1px solid #dddddd;
+    text-align: left;
+}
+
+
+.search_bar_heading{
+    font-size: 12px;
+    /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+    font-weight: 600;
+    letter-spacing: 0.08em;
+}
+
+
+.search_bar_discription{
+    color: #8c8c8c;
+    font-size: 14px;
+    margin-top: 2px;
+    /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+}
+
+
+#search_bar_flex2{
+    width: 178.16px;
+    background-color: white;
+    padding: 14px 24px;
+    box-sizing: border-box;
+    border-right: 1px solid #dddddd;
+    text-align: left;
+}
+
+
+#search_bar_flex3{
+    width: 178.16px;
+    background-color: white;
+    padding: 14px 24px;
+    box-sizing: border-box;
+    border-right: 1px solid #dddddd;
+    text-align: left;
+}
+
+
+#search_bar_flex4{
+    width: 222.72px;
+    background-color: white;
+    border-radius: 0pc 35px 35px 0px;
+    box-sizing: border-box;
+    display:grid;
+    grid-template-columns: 165px auto;
+    text-align: left;
+}
+
+
+#flex4_details{
+    padding: 14px 24px;
+    box-sizing: border-box;
+}
+
+
+#nav_search_logo{
+    box-sizing: border-box;
+    padding: 9px 0px;
+}
+
+
+#search_logo{
+    width: 48px;
+    height: 48px;
+    background-color: #ff385c;
+    border-radius: 30px;
+    padding: 16px;
+    box-sizing: border-box;
+}
+
+
+.font{
+    /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+    font-weight: 600;
+    letter-spacing: -0.02em;
+}
+
+
+.trip_list{
+    margin-top: 48px;
+    height: 509.31px;
+    display:grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: space-between;
+}
+
+
+.trip_container{
+    width: 382px;
+    height: 100%;
+    overflow: hidden;
+    border-radius: 12px;
+}
+
+
+.trip_img{
+    height: 254.66px;
+    width: 382px;
+    display:grid;
+}
+
+
+.trip_discription_container{
+    height: 254.66px;
+    width: 382px;
+    padding: 24px 16px 16px;
+    box-sizing: border-box;
+}
+
+
+#discover_section{
+    height: 1075px;
+    padding: 96px 151.5px 96px 151.5px;
+    box-sizing: border-box;
+}
+
+
+.discover_container{
+    height: 788px;
+    margin-top: 48px;
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+}
+
+
+.experiences_container{
+    height: 100%;
+    width: 788px;
+    background-size: 788px 788px;;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.experiences_details{
+    padding: 80px;
+    height: 628px;
+    width: 628px;
+    display: grid;
+    grid-template-rows: 144px 48px;
+}
+
+.experiences_details_heading{
+    font-size: 53px;
+    line-height: 60px;
+    color: white;
+    height: 120px;
+    width: 297px;
+}
+
+.experiences_details_disc{
+    height: 48px;
+    width: 140.11px;
+    border-radius: 8px;
+    background-color: white;
+    padding: 14px 24px;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+}
+
+.experiences_details_disc:hover{
+    background-color: #ebebeb;
+}
+
+#main_welcome{
+    height: 800px;
+    width: 1600px;
+    background-size: 1600px 800px;
+    border-radius: 12px;
+    overflow: hidden;
+    padding-bottom: 72px;
+    box-sizing: border-box;display: grid;grid-template-rows: 78px 56px;
+    align-content: flex-end;
+}
+
+
+#main_intro_container{
+    box-sizing: border-box;
+    margin: 0% auto auto;
+}
+
+
+#main_intro{
+    font-size: 48px;
+    font-weight: 600;
+    color: white;margin: 0%;
+}
+
+
+#flexible_container{
+    box-sizing: border-box;
+    border-radius: 30px;
+    margin: auto;
+    overflow: hidden;
+    background-color: white;
+}
+
+
+#flexible_button{
+    width: 161.42px;
+    height: 56px;
+    background-color: white;
+    box-sizing: border-box;
+    padding: 14px 34px;
+    font-size: 17px;
+    font-weight: 650;
+    text-overflow: ellipsis;
+    border: none;
+    /* background-image: linear-gradient(to right,rgb(114 1 155),rgb(171 1 135)); */
+    background-image: linear-gradient(to right,rgb(114 1 155),rgb(171 1 135));
+    -webkit-background-clip : text;
+    -webkit-text-fill-color: transparent;
+}
+
+#flexible_button:hover{
+    background-color: lightgray;
+}
+
+
+#trip_section{
+    height: 700.31px;
+    padding: 96px 151.5px 0px 151.5px;
+    box-sizing: border-box;
+}
+
+#trip_heading{
+    font-size: 42px;
+    line-height: 47px;
+}
+
+.trip_name{
+    font-size: 35px;
+    line-height: 47px;
+    color: white;
+    display: grid;
+}
+
+.trip_discription{
+    font-weight: 600;
+    letter-spacing: -0.02em;
+    line-height: 47px;
+    color: white;
+    font-size: 20px;
+}
+
+#discover_section_heading{
+    font-size: 42px;
+    line-height: 47px;
+}
+
+#ask_hosting_section{
+    height: 848px;
+    padding: 0px 151.5px 48px 151.5px;
+    box-sizing: border-box;
+}
+
+#hosting_heading_container{
+    width:1600px;
+    height: 800px;
+    background-size: 1600px 800px;
+    border-radius: 12px;
+}
+
+#hosting_details{
+    padding:80px;
+    display: grid;
+    grid-template-rows: 592px 48px;
+}
+
+#hosting_heading{
+    font-size: 95px;
+    line-height: 98px;color: white;
+    width: 438.81px;
+    height: 294px;
+}
+
+#ask_a_support{
+    width: 169.72px;
+    height: 48px;
+    background-color: white;
+    border-radius: 8px;
+    padding: 14px 24px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+#ask_a_support:hover{
+    background-color: #ebebeb;
+}
+
+#footer_section{
+    background-color: #f7f7f7;
+    height: 399px;
+    padding: 0px 80px;
+    box-sizing: border-box;
+}
+
+#footer_contant_container{
+    width: 1624px;
+    height:330px;
+    padding: 48px 0px;
+    box-sizing: border-box;
+    margin: 0px auto;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+.footer_grid{
+    padding: 0px 12px;
+    box-sizing: border-box;
+}
+
+.footer_contant_heading{
+    font-size: 14px;
+    margin: 0%;
+    padding: 0%;
+}
+
+.footer_contant_list{
+    display: grid;
+    grid-template-rows: auto auto auto auto auto auto;
+    list-style: none;
+    padding: 0%;
+    margin: 0%;
+}
+
+.footer_contant{
+    margin-top: 16px;
+    text-decoration: none;
+}
+
+
+.footer_contant:visited{
+    color: #000000;
+}
+
+.footer_contant:hover{
+    color: #000000;
+    text-decoration: underline;
+}
+
+#footer_detail_container{
+    height: 69px;
+    width: 1600px;
+    margin: 0% auto;
+    padding: 24px 0%;
+    box-sizing: border-box;
+    border-top: 1px solid rgb(221 221 221);
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.footer_links{
+    text-decoration: none;
+}
+
+.footer_links:link{
+    color: #000000;
+}
+
+.footer_links:visited{
+    color: #000000;
+}
+
+.footer_links:hover{
+    color: #000000;
+    text-decoration: underline;
+}
+
+.button{
+    border: none;
+}
+
+.button:hover{
+    border: none;
+    color: gray;
+}
+
+.buttons{
+    text-decoration: none;
+}
+
+.buttons:link{
+    text-decoration: none;
+    color: #000000;
+}
+
+.buttons:visited{
+    text-decoration: none;
+    color: #000000;
+}
+
+.navbar_button{
+    text-decoration: none;
+}
+
+.navbar_button:link{
+    text-decoration: none;
+}
+
+.navbar_button:visited{
+    text-decoration: none;
+}
+
+header{
+    width: 100%;
+    height: 160px;
+    padding: 0% 151.5px;
+    background-color : black;
+    position : fixed;
+    box-sizing: border-box;
+    color: white;
+    transition: 0.3s;
+}
+
+#scroll{
+    background-color: black;
+}
+
+.logo{
+    color: white;
+    
+}
+
+#logo:link{
+    color: white;
+}
+#logo:visited{
+    color: white;
+}
+#languages{
+    color: white;
+}
+
+.options{
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    padding-top: 27px;
+    letter-spacing: 0.01em;
+    font-size: 17px;
+    margin-right: 24px;
+}
+.options:hover{
+    color: white;
+    text-decoration: none;
+    text-decoration: underline;
+    transition: 0.2s;    
+}
+
+#logo_move{
+    animation-name: logo_fix;
+    animation-duration: 0.10s;
+    position: relative;
+}
+
+#navigation_button{
+    animation-name: logo_fix;
+    animation-duration: 0.10s;
+    position: relative;
+}
+
+#languages{
+    animation-name: logo_fix;
+    animation-duration: 0.10s;
+    position: relative;
+}
+#host{
+    animation-name: logo_fix;
+    animation-duration: 0.10s;
+    position: relative;
+}
+
+@keyframes logo_fix{
+    from {bottom: 0px;}
+    to {top: 0px;}
+}
+
+@keyframes logo_anim{
+    from {bottom: 7px;}
+}
+
+.search_button{
+    height: 64px;
+    width: 848px;
+    border-radius: 30px;
+    overflow: hidden;
+    background-color: white;
+    box-sizing: border-box;
+    padding: 0%;
+}
+#search_label1:hover{
+    border-radius: 30px;
+    background-color: #ebebeb;
+}
+
+#start{
+    text-decoration: none;
+    color: #000000;
+}
+#start:hover{
+    color: #000000;
+    text-decoration: none;
+}
+#start:visited{
+    color: #000000;
+    text-decoration: none;
+}
+#start:link{
+    color: #000000;
+    text-decoration: none;
+}
+
+.options_portion{
+    width:850px;
+    height: 146px;
+    margin: 0% auto;
+    text-align: center;
+}
+
+#pop_btn{
+    height: 77px;
+    padding-top:19px ;
+    padding-left: 9px;
+}
+
+.search_portion{
+    width: 440px;
+    height: 80px;
+    float: right;
+    display: flex;
+}
+
+.logo_portion{
+    width: 440px;
+    height: 80px;
+    float: left;
+}
